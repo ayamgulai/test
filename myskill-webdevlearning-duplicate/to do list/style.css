@@ -1,0 +1,92 @@
+body{
+    background-color: green;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+.todo-wrapper{
+    background-color: white;
+    margin-top: 50px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+    border-radius: 15px;
+}
+
+.todo-wrapper h2{
+    margin: 0;
+}
+.todo-wrapper p{
+    font-style: italic;
+    color: rgb(155, 154, 154);
+    margin: 5px 0 ;
+}
+
+.todo-wrapper ol{
+    margin: 20px 0;
+}
+
+.todo-wrapper ol li{
+    margin: 5px 0;
+    padding: 3px;
+    transition: all 0.5s ease-out;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+}
+
+.todo-wrapper ol li:nth-child(even){
+    background: #ddd;
+}
+
+.todo-wrapper .completed {
+    text-decoration: line-through;
+    color: #666;
+}
+
+.todo-wrapper input{
+    padding: 3px 6px;
+}
+
+.todo-wrapper form{
+    display: inline-block;
+}
+
+.todo-wrapper .nice-button{
+    background-color: rgb(23, 95, 211);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin: 10px 2px;
+    display: inline-block;
+    border: none;
+    font-size: small;
+    text-align: center;
+}
+.todo-wrapper .nice-button:hover{
+    cursor: pointer;
+    opacity: 0.75;
+    color: black;
+}
+
+.todo-wrapper #save-button{
+    background-color: rgb(49, 238, 49);
+}
+
+.todo-wrapper #empty-button{
+    background-color: rgb(255, 60, 60);
+}
+
+.todo-wrapper #clear-completed{
+    background-color: rgb(24, 150, 246);
+}
+
+#control-wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+

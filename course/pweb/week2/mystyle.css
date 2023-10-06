@@ -1,0 +1,27 @@
+.sembunyi{
+    display: none;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+p{
+    text-align: center;
+}
+.salam{
+    font-size: larger;
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: bisque;
+}
+.underline{
+    text-decoration: underline;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.bulet{
+    border-radius: 20px 40px 60px 80px;
+}
